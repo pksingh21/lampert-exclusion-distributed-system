@@ -1,5 +1,5 @@
 # Contributors
-1. Prateek Kr. Singh - 20CS01003
+Prateek Kr. Singh - 20CS01003
 
 # Theory
 **Lamport’s Distributed Mutual Exclusion Algorithm** is a permission based algorithm proposed by Lamport as an illustration of his synchronization scheme for distributed systems. In this scheme, permission based timestamp is used to order critical section requests and to resolve any conflict between requests. In Lamport’s Algorithm critical section requests are executed in the increasing order of timestamps i.e a request with smaller timestamp will be given permission to execute critical section first than a request with larger timestamp.
